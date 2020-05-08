@@ -66,7 +66,7 @@ if __name__ == '__main__':
         testunit = unittest.TestSuite()
         testunit.addTest(unittest.makeSuite(TestQzcUser))
         testunit.addTest(unittest.makeSuite(TestQzcServer))
-        runner = HTMLTestRunner.HTMLTestRunner(f, verbosity=2, title='七指禅自动化测试报告' + '\n' + 'From：Yue Songjie',
+        runner = HTMLTestRunner.HTMLTestRunner(f, verbosity=2, title='七指禅自动化测试报告--测试群发邮件--From：Yue Songjie',
                                                description='七指禅社区版线上主流程回测')
         runner.run(testunit)
         f.close()
