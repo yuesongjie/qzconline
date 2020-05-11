@@ -72,6 +72,7 @@ if __name__ == '__main__':
         f.close()
         try:
             send()
+            print(back.live())
             print('邮件发送成功')
         except:
             print('邮件发送失败')

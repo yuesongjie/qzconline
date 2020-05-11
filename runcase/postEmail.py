@@ -11,7 +11,7 @@ def send():
     from_addr = 'yuesongjie@huashengfe.com'
     password = 'Ysj1025'  # 腾讯QQ邮箱或腾讯企业邮箱必须使用授权码进行第三方登陆
     to_addr = 'lanyi-qzc-project-list@huashengfe.com'
-#    to_addr = 'yuesongjie@huashengfe.com'
+    # to_addr = 'yuesongjie@huashengfe.com'
     smtp_server = 'smtp.exmail.qq.com'  # 腾讯服务器地址
 
     report = os.getcwd() + '/report.html'
